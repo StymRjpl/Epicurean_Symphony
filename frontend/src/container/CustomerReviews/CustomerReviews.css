@@ -1,0 +1,80 @@
+body {
+    margin-top: 20px;
+    background-color: #0C0C0C !important; /* Set the background color to black */
+    color: rgb(255, 255, 255) !important; /* Set the text color to white */
+}
+
+.align-center {
+    text-align: center;
+}
+
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(249, 245, 245, 0.2); /* Set border color to white with some opacity */
+    border-bottom: 1px solid rgba(252, 247, 247, 0.2); /* Set border color to white with some opacity */
+}
+
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+
+img {
+    border: 0;
+}
+
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+
+.img-round, .img-rel-round {
+    border-radius: 50%;
+}
+
+.padb-30, .padb-30-all > * {
+    padding-bottom: 30px;
+}
+
+.mgb-40, .mgb-40-all > * {
+    margin-bottom: 40px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+[class*="line-b"] {
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: rgb(255, 255, 255) !important; /* Set the text color to white */
+}
+
+.font-cond-b {
+    font-weight: 700 !important;
+}
