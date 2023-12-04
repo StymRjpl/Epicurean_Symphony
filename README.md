@@ -5,7 +5,7 @@
   <p align="center">
     Epicurean Symphony is a fine dining restaurant
     <br />
-    <a href="https://github.com/StymRjpl/Epicurean_Symphony/edit/master/README.md#"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/StymRjpl/Epicurean_Symphony#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     
